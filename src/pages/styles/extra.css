@@ -1,0 +1,46 @@
+.report {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.report .report-div {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.report-div input, textarea {
+    width: 80%;
+    height: 6vh;
+    border: 1px solid lightgray;
+    margin-bottom: 3vh;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0.4rem;
+    resize: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.report-div textarea {
+    height: 40vh !important;
+}
+
+.report-div input[type = 'submit'] {
+    background-color: #2a41e8 !important;
+    color: white;
+    font-size: 0.9rem; 
+    transition: ease 0.5s;
+}
+
+.report-div input[type = 'submit']:hover {
+    background-color: rgb(22, 45, 255) !important;
+}

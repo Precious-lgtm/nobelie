@@ -1,0 +1,88 @@
+.creatorCard {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    transition: ease-in 0.5s;
+}
+
+.creatorCard:hover {
+    background-color: rgb(225,225,225);
+    cursor: context-menu;
+}
+
+.creatorAvatar {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.creatorAvatar img {
+    border-radius: 50%;
+}
+
+.creatorBio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.creatorBio .creatorName {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: inherit;
+    font-weight: 500;
+    font-size: 0.938rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creatorBio .creatorDetails {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    font-weight: 400;
+    font-size: 0.813rem;
+    text-align: left;
+}
+
+.creatorLink {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.followLink {
+    text-decoration: none;
+    padding: 0.4rem;
+    border: 0.125rem solid black;
+    border-radius: 1.125rem;
+    font-size: 0.813rem;
+    color: black;
+    width: 60%;
+    text-align: center;
+    transition: ease 0.5s;
+}
+
+.followLink:hover {
+    background-color: #2a41e8;
+    color: white;
+    border: 0.125rem solid #2a41e8;
+}

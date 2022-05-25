@@ -1,0 +1,75 @@
+.dashboard {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.contents {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgb(225,225,225);
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 0vh;
+    margin-top: 2vh;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.trendList-2 {
+    width: 25vw;
+    height: auto;
+    border-radius: 2vh;
+    margin-top: 5vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(245,245,245);
+}
+
+.trendList-2 .seeMore {
+    width: inherit;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    color: blue;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    font-weight: 500;
+    transition: ease 0.5s;
+}
+
+.trendList-2 .seeMore:hover {
+    background-color: rgb(225,225,225) ;
+}

@@ -1,0 +1,38 @@
+.bodyIntro {
+    width: 65vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2vh;
+    border-top: 0.063rem solid rgb(235,235,235);
+    border-right: 0.063rem solid rgb(235,235,235);
+}
+
+.bodyHeader {
+    margin: 0;
+    width: auto;
+    padding: 1vh;
+    margin-left: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.postList {
+    width: inherit;
+    height: 300vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.postList::-webkit-scrollbar {
+    display: none;
+}

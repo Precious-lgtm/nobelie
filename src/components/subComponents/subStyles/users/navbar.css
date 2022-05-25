@@ -1,0 +1,126 @@
+.navbar {
+	height: 10vh;
+	width: 100vw;
+	background: white;
+	/**#282830;**/
+	color: #373836;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	position: fixed;
+	top: 0;
+    /**box-shadow: 0 0 1.125rem 0 rgb(0 0 0 / 12%);**/
+}
+
+.nav-logo {
+	text-decoration: none;
+	color: #2a41e8;
+    font-weight: bold;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+
+}
+
+.nav-links {
+	display: grid;
+	grid-template-columns: repeat(8, auto);
+	grid-gap: 1.25rem;
+	list-style: none;
+    margin-right: 5vh;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #2a41e8;
+	transition: 0.3s all;
+    font-size: 0.813rem;
+}
+
+.nav-link.signup {
+    background-color: #2a41e8;
+    color: white;
+    padding: 2vh;
+    font-size: 0.813rem;
+    border-radius: 1vh;
+    font-weight: 500;
+}
+
+.nav-link.signup:hover {
+	background-color: #373836;
+	color: white;
+}
+
+.nav-link:hover {
+	color: #373836;
+	cursor: pointer;
+}
+
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    color: #2a41e8;
+    background-color: white;
+    top: 0;
+}
+
+.nav-item:hover .nav-dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 18vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8vh;
+    box-shadow: 0px 6px 6px 0px rgb(225,225,225); 
+}
+
+.profileImage {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.nav-icon {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 31.25rem) {
+	.navbar {
+		position: relative;
+	}
+
+	.nav-links {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 5rem;
+		left: -100%;
+		transition: 0.5s all;
+	}
+
+	.nav-links.active {
+		background: blue;
+		left: 0;
+	}
+
+	.nav-item {
+		padding: 0.625rem 0;
+		border-top: 0.063rem solid red;
+		border-bottom: 0.063rem solid red;
+	}
+
+	.nav-icon {
+		display: flex;
+	}
+}

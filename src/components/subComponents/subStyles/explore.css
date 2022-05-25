@@ -1,0 +1,59 @@
+.explore {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2vh;
+    transition: ease-in 0.5s;
+}
+
+.explore:hover {
+    background-color: rgb(225,225,225);
+    cursor: context-menu;
+}
+
+.exploreDetails {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.exploreTopic {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: inherit;
+}
+
+.exploreAudience {
+    font-size: 0.875rem;
+    font-weight: 400;
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.thumbnail {
+    width: 65%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1vw;
+}
+
+.thumbnail .expThumbnail {
+    width: inherit;
+    height: inherit;
+}

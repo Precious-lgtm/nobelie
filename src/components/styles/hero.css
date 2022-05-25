@@ -1,0 +1,89 @@
+.hero-intro {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgba(250,250,250,1) 20%, 
+        rgba(250,250,250,.8) 60% ,
+        rgba(250,250,250,0.5) 80%,
+        rgba(250,250,250,0.2) 100%), url('../../assets/collage2.png');
+}
+
+.intro-message {
+    width: 55vw;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.intro-image {
+    width: 45vw;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-1 {
+    width: 75%;
+    margin-left: 5vh;
+    font-size: 2.5rem;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: bold;
+    margin-bottom: 0vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.message-2 {
+    width: 75%;
+    margin-left: 5vh;
+    font-size: 1.25rem;
+    word-wrap: break-word;
+    font-weight: normal;
+    margin-bottom: 2vh;
+}
+
+.invite {
+    border: none;
+    width: 20%;
+    height: 8%;
+    margin-left: 5vh;
+    margin-top: 1vh;
+    background-color: #2a41e8;
+    color: white;
+    font-weight: 500;
+    border-radius: 0.313rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.938rem;
+    transition: ease 0.5s;
+}
+
+.invite:hover {
+    background-color: #373836;
+}
+
+.message-3 {
+    width: 75%;
+    margin-left: 5vh;
+    font-size: 0.938rem;
+    word-wrap: break-word;
+    font-weight: normal;
+    margin-bottom: 2vh;   
+}
+
+.message-3 .link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2a41e8;
+}
+

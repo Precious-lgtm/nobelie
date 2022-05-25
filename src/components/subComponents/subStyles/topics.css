@@ -1,0 +1,83 @@
+.topics {
+    width: 11vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #2a41e8;
+    transition: ease-in 0.5s;
+    border: 0.063rem solid #2a41e8;
+    border-radius: 1.88rem;
+
+}
+
+.topics:hover {
+    background-color: #2a41e8;
+    cursor: pointer;
+    color: white;
+}
+
+.topic-1 {
+    font-size: 0.813rem;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 0vh;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*.topicBrief {
+    font-size: 0.938rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.articleMeta {
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authorName {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.authorImage {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+}
+
+.authorName label {
+    font-size: 0.813rem;
+    font-weight: normal;
+    color: black;
+}
+
+.time {
+    width: auto;
+    height: auto;
+    font-size: 0.813rem;
+    font-weight: normal;
+}*/

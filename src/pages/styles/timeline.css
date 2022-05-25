@@ -1,0 +1,15 @@
+.timeline {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-body {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    margin-top: 10vh;
+}
