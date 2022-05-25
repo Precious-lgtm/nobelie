@@ -2,10 +2,9 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import '../subStyles/users/navbar.css';
-import DropdownItem from '@restart/ui/esm/DropdownItem';
-import { DropdownButton } from 'react-bootstrap';
-import avatar from '../../../assets/avatar.jpg';
-
+//import DropdownItem from '@restart/ui/esm/DropdownItem';
+//import { DropdownButton } from 'react-bootstrap';
+//import avatar from '../../../assets/avatar.jpg';
 function Navbar() {
     const [open, setOpen] = useState(false);
 
