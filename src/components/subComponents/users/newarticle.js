@@ -39,9 +39,10 @@ function Newarticle(props) {
                 <ReactQuill theme='snow' 
                         formats={formats}
                         modules={modules}
+                        onChange = {setEditorState}
                         //value = {editorState}
                         placeholder = 'Write Something'
-                        defaultValue = {editorState}>
+                        value = {editorState}>
                 </ReactQuill>
                 <input type = 'submit' className='newarticle-input-submit' value = 'Submit Article' />       </form>
         </div>

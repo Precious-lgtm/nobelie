@@ -30,8 +30,10 @@ function Menu (props) {
             {clicked ? 
             <div className = 'menu-dashboard'>
                 <Link to = '/' className = 'menu-dashboard-link'> View Profile </Link>
-                <Link to = '/' className = 'menu-dashboard-link'> Edit Profile </Link>
-                <Link to = '/' className = 'menu-dashboard-link'> My Dashboard </Link>
+                <Link to = '/users/timeline' className = 'menu-dashboard-link'> Timeline </Link>
+                <Link to = '/users/dashboard' className = 'menu-dashboard-link'> My Dashboard </Link>
+                <Link to = '/users/dashboard/newarticle' className = 'menu-dashboard-link'> New Article </Link>
+                <Link to = '/users/statistics' className = 'menu-dashboard-link'> Statistics </Link>
                 <Link to = '/' className = 'menu-dashboard-link'> Messages </Link>
                 <Link to = '/auth/signup' className = 'menu-dashboard-link'> Logout </Link>
             </div> : '' }
