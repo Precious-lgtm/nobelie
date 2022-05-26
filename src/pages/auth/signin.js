@@ -9,7 +9,7 @@ function Signin(props) {
             <div className = 'regForm'>
                 <h4 className = 'formHeader'> 
                     <label> Welcome Back </label> 
-                    <Link to = '/'><FiHome color = 'white' fill = 'black' size = {20} /></Link>
+                    <Link to = '/'><FiHome color = 'white' fill = 'black' size = {25} /></Link>
                 </h4>
                 <h5 className = 'formHeader2'> We've missed you here at Nobelie. </h5>
                 <form className = 'signin' method = 'POST'>

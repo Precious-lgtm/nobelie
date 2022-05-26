@@ -9,7 +9,7 @@ function Reset(props) {
             <div className = 'regForm'>
                 <h4 className = 'formHeader'> 
                     <label> Forgot Your Password? </label> 
-                    <Link to = '/'><FiHome color = 'white' fill = 'black' size = {20} /></Link>
+                    <Link to = '/'><FiHome color = 'white' fill = 'black' size = {25} /></Link>
                 </h4>
                 <h5 className = 'formHeader2'> Give us your Username / Email. We'll reset it. </h5>
                 <form className = 'signin' method = 'POST'>
@@ -23,7 +23,7 @@ function Reset(props) {
                         />
                     </div>
                     <div className = 'formData'>
-                        <input className = 'submit' type = 'submit' value = 'Login' name = 'login' />
+                        <input className = 'submit' type = 'submit' value = 'Reset My Password' name = 'login' />
                     </div>
                     <div className = 'formData2'>
                         <Link to = '/auth/signup' className = 'alt'> Create a New Account </Link>

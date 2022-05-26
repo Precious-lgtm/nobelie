@@ -12,7 +12,7 @@
 }
 
 .regForm {
-    width: 30%;
+    width: 33vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -75,13 +75,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 2vh;
+    margin-bottom: 1.5vh;
 }
-
 
 .formData input {
     width: 90%;
-    height: 75%;
+    height: 80%;
     font-family: Verdana;
     font-size: 0.75rem;
     color: black;
@@ -131,4 +130,57 @@
 .formData2 .alt:hover {
     color: #2a41e8;
 }
+
+@media only screen and (max-width: 1152px) and (min-width: 1025px) {
+        .regForm {
+            width: 66vw;
+        }
+    
+        .formHeader {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+    
+        .formHeader2 {
+            font-size: 1rem;
+        }
+    
+        .formData {
+            margin-bottom: 1.5vh;
+        }
+    
+        .formData input {
+           font-size: 1rem;
+           height: 90%
+        }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 144px) {
+    .regForm {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to left, rgba(200, 200, 200, 0.97), rgba(200, 200, 200, 0.97)),
+        url('../../assets/collage2.png');
+    }
+
+    .formHeader {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .formHeader2 {
+        font-size: 1.125rem;
+    }
+
+    .formData {
+        margin-bottom: 1.5vh;
+    }
+
+    .formData input {
+       font-size: 1rem;
+       height: 90%;
+    }
+}
+
+
 

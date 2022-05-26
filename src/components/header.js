@@ -20,7 +20,7 @@ function Header() {
                 Nobelie
             </Link>
             <div onClick={handleClick} className="nav-icon">
-                {open ? <FiX /> : <FiMenu />}
+                {open ? <FiX className='burger' /> : <FiMenu className='burger' />}
             </div>
             <ul className={open ? 'nav-links active' : 'nav-links'}>
 				<li className="nav-item">

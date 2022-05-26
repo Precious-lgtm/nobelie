@@ -9,7 +9,7 @@ function Signup(props) {
             <div className = 'regForm'>
                 <h4 className = 'formHeader'>
                     <label> Sign Up </label> 
-                    <Link to = '/'><FiHome color = 'white' fill = 'black' size = {20} /></Link>
+                    <Link to = '/'><FiHome color = 'white' fill = 'black' size = {25} /></Link>
                 </h4>
                 <h5 className = 'formHeader2'> Become a creator at Nobelie </h5>
                 <form className = 'signin' method = 'POST' action = '' autocomplete = 'off'>
@@ -19,7 +19,7 @@ function Signup(props) {
                             name = 'firstname' 
                             id = 'firstname' 
                             autocomplete = 'off'
-                            placeholder = 'Enter Your Full Name (Firstname and Lastname)' 
+                            placeholder = 'Full Name' 
                             required
                         />
                     </div>
@@ -29,7 +29,7 @@ function Signup(props) {
                             name = 'email' 
                             id = 'email' 
                             autocomplete = 'off'
-                            placeholder = 'Enter your Email Address' 
+                            placeholder = 'Email Address' 
                             required
                         />
                     </div>
@@ -39,7 +39,7 @@ function Signup(props) {
                             name = 'username' 
                             id = 'username' 
                             autocomplete = 'off'
-                            placeholder = 'Enter a valid Username (at least 7 characters)' 
+                            placeholder = 'Username (minimum: 4 characters)' 
                             required
                         />
                     </div>
@@ -59,7 +59,7 @@ function Signup(props) {
                             name = 'password2' 
                             id = 'password2' 
                             autocomplete = 'off'
-                            placeholder = 'Confirm Your Password' 
+                            placeholder = 'Repeat Password' 
                             required
                         />
                     </div>
