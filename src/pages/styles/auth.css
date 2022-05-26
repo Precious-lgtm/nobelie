@@ -159,7 +159,7 @@
     .regForm {
         width: 100vw;
         height: 100vh;
-        background: linear-gradient(to left, rgba(200, 200, 200, 0.97), rgba(200, 200, 200, 0.97)),
+        background: linear-gradient(to left, rgba(245, 245, 245, 0.97), rgba(245, 245, 245, 0.97)),
         url('../../assets/collage2.png');
     }
 
