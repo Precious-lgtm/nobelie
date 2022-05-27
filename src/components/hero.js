@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles/hero.css';
-import collage from '../assets/collage.png';
+//import collage from '../assets/collage.png';
 
 function Hero (props) {
     return (

@@ -11,13 +11,14 @@ import { Link } from 'react-router-dom';
 function sidebar (props) {
     return(
         <div className = 'trendIntro'>
-            <Menu />
+            <Menu className = "menu"/>
             <form className = 'search'>
                 <input type = 'text' placeholder = 'Search Nobelie' />
                 <button type = 'submit'><FiSearch size = {18} color = 'darkgrey' /></button>
             </form>
             <div className = 'trendList'>
                 <h3> Trending Topics </h3>
+                <Explore />
                 <Explore />
                 <Explore />
                 <Explore />
@@ -34,7 +35,7 @@ function sidebar (props) {
                 <Creators />
                 <Link className = 'seeMore' to = '/'> See More </Link>
             </div>
-            <Footer />
+            <Footer className = "sidefooter" />
         </div>
     )
 }

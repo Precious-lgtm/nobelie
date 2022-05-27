@@ -1,6 +1,7 @@
 .hero-intro {
     width: 100vw;
     height: 85vh;
+    margin-top: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -85,5 +86,62 @@
     text-decoration: none;
     font-weight: bold;
     color: #2a41e8;
+}
+
+@media only screen and 
+        (min-width: 640px) 
+    and (max-width: 768px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (-webkit-max-device-pixel-ratio: 3) 
+    {
+        .hero-intro {
+            width: 100vw !important;
+            height: 85vh;
+            display: flex;
+            margin-top: 0;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center !important;
+            background: linear-gradient(to right,rgba(50,50,50,0.5), 
+            rgba(50,50,50,0.5)), url('../../assets/collage2.png') !important;
+        }
+
+        .intro-message {
+            width: 100%;
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .message-1 {
+            display: none;
+        }
+
+        .message-2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-align: justify;
+            width: 80%;
+            margin-left: 0;
+            color: white;
+        }
+
+        .invite {
+            width: 50%;
+            height: 5vh;
+            margin-left: 0;
+        }
+
+        .message-3 {
+            width: 80%;
+            margin-left: 0;
+            color: white;
+        }
+
+        .message-3 .link {
+            color: white;
+        }
 }
 

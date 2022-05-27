@@ -36,3 +36,14 @@
 .postList::-webkit-scrollbar {
     display: none;
 }
+
+@media only screen 
+    and (min-width: 240px)
+    and (max-width: 768px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (-webkit-max-device-pixel-ratio: 3)
+    {
+    .bodyIntro {
+        width: 100vw;
+    }
+}

@@ -2,7 +2,6 @@ import React from "react";
 import Header from './components/header';
 import Hero from './components/hero';
 import Body from './components/body';
-import './assets/tailwind.css';
 import './App.css';
 
 function App(props) {
