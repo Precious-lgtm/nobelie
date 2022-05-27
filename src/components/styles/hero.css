@@ -3,12 +3,12 @@
     height: 85vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background: linear-gradient(to right,rgba(250,250,250,1) 20%, 
         rgba(250,250,250,.8) 60% ,
         rgba(250,250,250,0.5) 80%,
-        rgba(250,250,250,0.2) 100%), url('../../assets/collage2.png');
+        rgba(250,250,250,0.2) 100%), url('../../assets/collage2.png') !important;
 }
 
 .intro-message {
@@ -20,14 +20,14 @@
     align-items: flex-start;
 }
 
-.intro-image {
+/*.intro-image {
     width: 45vw;
     height: inherit;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 .message-1 {
     width: 75%;

@@ -20,9 +20,9 @@ function Hero (props) {
                 <Link to = '/auth/signup' className = 'invite'> Become a Creator </Link>
                 <p className = 'message-3'> If you are just here to read articles, <Link className = 'link' to = '/'> Click Here </Link></p>
             </div>
-            <div className = 'intro-image'>
-               {/**<img src = {collage} alt = 'hero' width = {440} height = {330} />*/}
-            </div>
+            {/*<div className = 'intro-image'>
+               {/**<img src = {collage} alt = 'hero' width = {440} height = {330} />}
+            </div> */}
         </div>
     )
 }

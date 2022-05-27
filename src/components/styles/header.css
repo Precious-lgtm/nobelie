@@ -120,6 +120,8 @@
 		left: 0;
 		height: 30vh;
 		padding-bottom: 4vh !important;
+		padding-top: 1vh !important;
+		padding-left: 3rem;
 	}
 
 	.nav-item {
@@ -129,6 +131,10 @@
 	}
 
 	.nav-item:last-child {
+		margin-top: 1vh !important;
+	}
+
+	.nav-item:first-child {
 		margin-top: 1vh;
 	}
 
