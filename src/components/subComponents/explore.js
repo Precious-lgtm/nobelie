@@ -12,8 +12,8 @@ function Explore(props) {
                     Marriage and Divorce   
                 </p>
                 <div className = 'exploreAudience'>
-                    <label><BsFillJournalBookmarkFill /> 5000 topics</label>
-                    <label><FaUserGraduate /> 1050 Creators </label>
+                    <label><BsFillJournalBookmarkFill /> 5000 articles </label>
+                    <label><FaUserGraduate /> 1550 Creators </label>
                 </div>
             </div>
             <div className = 'thumbnail'>

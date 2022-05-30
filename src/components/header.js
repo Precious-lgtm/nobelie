@@ -48,6 +48,16 @@ function Header() {
 						Contact Us
 					</Link>
 				</li>
+                <li className="nav-item resp">
+                    <Link to="/explore" className="nav-link" onClick={closeMenu}>
+                        My Account
+                    </Link>
+                </li>
+                <li className="nav-item resp">
+                    <Link to="/explore" className="nav-link" onClick={closeMenu}>
+                        Trending Topics and Creators
+                    </Link>
+                </li>
                 <li className = 'nav-item'>
                     <Link to = '/auth/signup' className = "nav-link signup" onClick = {closeMenu}>
                         Login / Register

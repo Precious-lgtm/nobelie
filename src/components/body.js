@@ -18,6 +18,7 @@ function Body(props) {
                     <Topics />
                     <Topics />
                     <Topics />
+                    <Topics className = "mobile"/>
                 </div>
             </div>
             <div className = 'bodyContent'>

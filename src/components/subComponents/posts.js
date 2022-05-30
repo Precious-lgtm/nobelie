@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { BsBookmarks } from 'react-icons/bs';
 import './subStyles/posts.css';
 import image from '../../assets/stock1.jpg';
 
@@ -18,8 +19,9 @@ function posts (props) {
                         auctor ac vitae velit.  
                     </h3>
                     <p className = 'postExtra'>
-                        <label> May 29 </label>
-                        <label> 6 Min. Read </label>
+                        <label> May 29, 2022 </label>
+                        <label> 4:30 pm </label>
+                        <Link to = '/'><BsBookmarks color = 'white' fill = 'black' size = {16} /></Link>
                     </p>
                 </div>
             </div>

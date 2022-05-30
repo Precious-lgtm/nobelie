@@ -7,7 +7,7 @@ function Creators(props) {
     return(
         <div className = 'creatorCard'>
             <div className = 'creatorAvatar'>
-                <img src = {avatar} width = {40} height = {45} alt = 'avatar' />
+                <img src = {avatar} width = {50} height = {54} alt = 'avatar' />
             </div>
             <div className = 'creatorBio'>
                 <h3 className = 'creatorName'>Joel Leon</h3>

@@ -17,7 +17,7 @@ function Hero (props) {
                     platform where you can share your stories,
                     build an audience and earn money.
                 </p>
-                <Link to = '/auth/signup' className = 'invite'> Become a Creator </Link>
+                <Link to = '/auth/signup' className = 'invite'> Get Started </Link>
                 <p className = 'message-3'> If you are just here to read articles, <Link className = 'link' to = '/'> Click Here </Link></p>
             </div>
             {/*<div className = 'intro-image'>

@@ -83,13 +83,38 @@
 }*/
 
 @media only screen and 
-        (min-width: 640px) 
-    and (max-width: 768px) 
+        (min-width: 480px) 
+    and (max-width: 1080px) 
     and (-webkit-min-device-pixel-ratio: 2)
     and (-webkit-max-device-pixel-ratio: 3) 
     {
         .topics {
-            width: 20vw;
+            width: 15vw;
+            height: 5vh;
+        }
+
+        .topics {
+            margin-right: 1vw;
+            margin-bottom: 1vh;
+        }
+
+        .topics:first-child {
+            margin-left: 0;
+        }
+
+        .topic-1 {
+            font-size: 0.5rem;
+        }
+    }
+
+@media only screen and 
+        (min-width: 144px) 
+    and (max-width: 479px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (-webkit-max-device-pixel-ratio: 3) 
+    {
+        .topics {
+            width: 25vw;
             height: 5vh;
         }
 

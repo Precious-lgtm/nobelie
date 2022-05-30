@@ -16,7 +16,7 @@ function sidebar (props) {
                 <input type = 'text' placeholder = 'Search Nobelie' />
                 <button type = 'submit'><FiSearch size = {18} color = 'darkgrey' /></button>
             </form>
-            <div className = 'trendList'>
+            <div className = 'trendList trending'>
                 <h3> Trending Topics </h3>
                 <Explore />
                 <Explore />
@@ -24,15 +24,23 @@ function sidebar (props) {
                 <Explore />
                 <Explore />
                 <Explore />
-                <Explore />
+                <div className='mobile'>
+                    <Explore />
+                    <Explore />
+                </div>
              </div>
-            <div className = 'trendList'>
+            <div className = 'trendList creators'>
                 <h3>Discover Creators</h3>
                 <Creators />
                 <Creators />
                 <Creators />
                 <Creators />
                 <Creators />
+                <Creators />
+                <div className='mobile'>
+                    <Creators />
+                    <Creators />
+                </div>
                 <Link className = 'seeMore' to = '/'> See More </Link>
             </div>
             <Footer className = "sidefooter" />

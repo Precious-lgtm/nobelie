@@ -23,7 +23,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
 }
 
 .ownerData {
@@ -81,3 +80,62 @@
     font-size: 0.75rem;
     color: black;
 }
+
+@media only screen and 
+        (min-width: 144px) 
+    and (max-width: 479px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (-webkit-max-device-pixel-ratio: 3) 
+    {
+        .postContent {
+            width: 94%;
+            height: 20vh;
+            margin-left: 1.5vh;
+            margin-top: 2vh;
+            justify-content: space-evenly;
+        }
+
+        .postMeta {
+            width: 75%;
+        }
+
+       .postTitle {
+           font-size: 0.875rem;
+       }
+
+       .postExtra {
+           justify-content: space-between;
+       }
+
+       .postHeader {
+            width: 25%;
+       }
+
+       .post-thumbnail {
+           width: 100%;
+           height: 75%;
+           border-radius: 0.3rem;
+       }
+    }
+
+
+@media only screen and 
+        (min-width: 480px) 
+    and (max-width: 1080px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (-webkit-max-device-pixel-ratio: 3) 
+    {
+        .postContent {
+            width: 91%;
+            height: 20vh;
+            margin-top: 1vh;
+            margin-left: 4vh;
+            padding: 2%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            transition: all 1s;
+        }
+    }
