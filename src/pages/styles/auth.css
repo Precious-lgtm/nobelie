@@ -164,7 +164,7 @@
     .regContainer {
         width: 100vw;
         height: calc(100% / 1px);
-
+        overflow-y: hidden;
     }  
     
     .regForm {
