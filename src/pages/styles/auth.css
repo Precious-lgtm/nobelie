@@ -86,6 +86,11 @@
     color: black;
     text-indent: 0.313rem;
     border: 0.063rem solid lightgray;
+    position: fixed;
+}
+
+.formData input:focus {
+    position: absolute;
 }
 
 .formData input:focus {
