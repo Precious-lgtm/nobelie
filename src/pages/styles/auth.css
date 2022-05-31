@@ -163,12 +163,13 @@
 @media only screen and (max-width: 1024px) and (min-width: 144px) {
     .regContainer {
         width: 100vw;
-        height: calc((100 * 100vh)/100px);
+        height: calc(100% / 1px);
+
     }  
     
     .regForm {
-        width: 100vw;
-        height: 1500px;
+        width: 100%;
+        height: 100%;
         background: linear-gradient(to left, rgba(245, 245, 245, 0.97), rgba(245, 245, 245, 0.97)),
         url('../../assets/collage2.png');
     }
