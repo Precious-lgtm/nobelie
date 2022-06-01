@@ -163,8 +163,7 @@
 @media only screen and (max-width: 1024px) and (min-width: 144px) {
     .regContainer {
         width: 100vw;
-        height: calc(100vh / 1px);
-        position: fixed;
+        height: 100vh;
     }  
     
     .regForm {
@@ -189,7 +188,7 @@
 
     .formData input {
        font-size: 1rem;
-       height: 90%;
+       min-height: 15px;
     }
 }
 
