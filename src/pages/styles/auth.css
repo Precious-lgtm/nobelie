@@ -163,9 +163,14 @@
 @media only screen 
     and (max-width: 1024px) 
     and (min-width: 144px) {
+
+    .mainContainer {
+        overflow-y: hidden !important;
+    }
+
     .regContainer {
         width: 100vw;
-        min-height: 720px;
+        height: 100vh;
         overflow-y: hidden !important;
     }  
     
