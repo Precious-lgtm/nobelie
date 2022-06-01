@@ -166,8 +166,9 @@
 
     body {
         overflow-y: hidden !important;
+        height: 720px;
     }
-    
+
     .mainContainer {
         overflow-y: hidden !important;
     }
