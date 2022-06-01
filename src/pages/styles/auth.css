@@ -190,6 +190,7 @@
     .signin {
         /*min-height: 450px;*/
         overflow-y: scroll;
+        min-height: 400px;
     }
 
     .formData {
