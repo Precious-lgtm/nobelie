@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minmum-scale=1, maximum-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -28,20 +28,6 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type = "text/javascript">
-        let viewport = document.querySelector("meta[name=viewport]");
-        viewport.setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
-
-        let initialHeight = viewport.clientHeight;
-
-        let checkHeight = document.getElementsByClassName("regContainer");
-
-        if(viewport.clientHeight > checkHeight) {
-          document.documentElement.style.setProperty('overflow', 'auto');
-          const metaViewport = document.querySelector('meta[name=viewport]')
-          metaViewport.setAttribute('content', 'height=' + initialHeight + 'px, width=device-width, initial-scale=1.0')
-        }
-    </script>
     <div id="root"></div>
 
     <!--
