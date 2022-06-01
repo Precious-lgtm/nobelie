@@ -174,8 +174,8 @@
 	{
     .regContainer {
         width: 100vw;
-        height: 100vh;
-        overflow-y: hidden !important;
+        min-height: 630px;
+        overflow: scroll !important;
     }  
     
     .regForm {
@@ -197,12 +197,12 @@
     .signin {
         /*min-height: 450px;*/
         overflow-y: scroll;
-        min-height: 300px;
+        min-height: 315px;
     }
 
     .formData {
         margin-bottom: 1.5vh;
-        min-height: 50px;
+        min-height: 45px;
     }
 
     .formData input {
