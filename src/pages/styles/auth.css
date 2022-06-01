@@ -165,8 +165,7 @@
     and (min-width: 144px) {
     .regContainer {
         width: 100vw;
-        min-height: 480px;
-        max-height: 640px;
+        min-height: 500px;
         overflow-y: auto !important;
     }  
     
@@ -192,8 +191,7 @@
 
     .formData input {
        font-size: 1rem;
-       max-height: 50px;
-       min-height: 40px;
+       min-height: 50px;
     }
 }
 
